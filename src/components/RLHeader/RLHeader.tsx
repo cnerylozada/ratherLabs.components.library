@@ -3,7 +3,7 @@ import React from "react";
 export const RLHeader = ({ className }: { className?: string }) => {
   return (
     <div
-      className={`py-4 px-4 lg:px-8 flex items-center justify-between bg-gray-800 text-white ${className}`}
+      className={`py-4 px-4 lg:px-8 w-full flex items-center justify-between bg-gray-800 text-white ${className}`}
     >
       <img
         src={
