@@ -524,10 +524,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.contents{
-  display: contents;
-}
-
 .rounded-md{
   border-radius: 0.375rem;
 }
