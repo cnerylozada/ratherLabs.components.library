@@ -15,7 +15,7 @@ export const RLTimeLeft = ({
     >
       <div className="flex items-center space-x-1 text-xs font-bold">
         <ClockIcon className="w-5 h-5" />
-        <span>Tiempo restante:</span>
+        <span>Time left:</span>
       </div>
       <div className="font-bold">
         {lifetimeSeconds} <span className="text-xs">seconds</span>
