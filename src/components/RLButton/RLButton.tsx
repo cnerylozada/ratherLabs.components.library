@@ -23,18 +23,16 @@ export const RLButton = ({
   disabled = false,
   className,
 }: IProps) => {
-  const styles = `${
-    !!disabled
-      ? "disabled:bg-gray-400 disabled:pointer-events-none"
-      : `${getThemeStyles(theme)}`
-  } py-2 px-3 rounded-md text-sm font-light`;
-
   return (
     <button
       type={type}
       onClick={onClick}
       disabled={disabled}
-      className={`${styles} ${className}`}
+      className={`py-2 px-3 rounded-md text-sm font-light ${
+        !!disabled
+          ? "disabled:bg-gray-400 disabled:pointer-events-none"
+          : `${getThemeStyles(theme)}`
+      } ${className}`}
     >
       {label}
     </button>

@@ -16,6 +16,5 @@ export const Basic: Story = {
       console.log("onclick rl-button");
     },
     theme: "blue",
-    disabled: true,
   },
 };
