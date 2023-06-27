@@ -15,5 +15,7 @@ export const Basic: Story = {
     onClick: () => {
       console.log("onclick rl-button");
     },
+    theme: "blue",
+    disabled: true,
   },
 };
