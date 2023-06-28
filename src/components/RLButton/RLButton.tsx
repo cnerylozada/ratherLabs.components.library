@@ -10,7 +10,7 @@ interface IProps {
   label: string;
   type?: "button" | "submit";
   theme?: Theme;
-  onClick: () => void;
+  onClick?: () => void;
   disabled?: boolean;
   className?: string;
 }
@@ -30,7 +30,7 @@ export const RLButton = ({
       disabled={disabled}
       className={`py-2 px-3 rounded-md text-sm font-light ${
         !!disabled
-          ? "disabled:bg-gray-400 disabled:pointer-events-none"
+          ? "disabled:bg-gray-300 disabled:pointer-events-none"
           : `${getThemeStyles(theme)}`
       } ${className}`}
     >
