@@ -14,7 +14,7 @@ export const RLModal = ({
       flex items-end md:items-center justify-center bg-black bg-opacity-70"
     >
       <div
-        className="relative p-4 w-full md:w-auto rounded-t-md md:rounded-md
+        className="relative p-4 w-full md:!w-fit rounded-t-md md:rounded-md
         border-t-8 max-h-[80%] overflow-y-auto bg-white"
       >
         <XCircleIcon
